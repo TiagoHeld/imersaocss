@@ -1,0 +1,42 @@
+body {
+    background: url("../img1.jpg");
+    background-size: cover;
+    height: 100vh; /* garantir que altura do body vai ser sempre a mesma */
+}
+
+.menu {
+   background: #00ADFF; 
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none; /* Seletor mais especifíco */
+}
+
+li a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.site-subtitle,
+.site-title {
+    text-align: center;
+    color: rgb(101, 20, 167);
+}
+
+.site-subtitle {
+    font-style: italic;
+}
